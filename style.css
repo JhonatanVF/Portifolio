@@ -1,0 +1,90 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(132, 17, 124);
+    height: 70px;
+}
+
+nav {
+    text-align: right;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    margin: 25px 30px 10px 15px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+#inicio {
+    height: 700px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+}
+
+.intro-posicao {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15vmax;
+}
+
+#sobre {
+    height: 700px;
+    background-color: rgb(37, 37, 37);
+}
+
+.sobre-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    padding-top: 4rem;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.intro-container {
+    padding-top: 2rem;
+    height: 300px;
+    width: 700px;
+}
+
+.img-container {
+    float: left;
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    float: right;
+    width: 550px;
+    font-size: 20px;
+    text-align: justify;
+}
