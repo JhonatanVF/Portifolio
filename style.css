@@ -49,7 +49,7 @@ a:hover {
 }
 
 #sobre {
-    height: 700px;
+    height: 750px;
     background-color: rgb(37, 37, 37);
 }
 
@@ -87,4 +87,54 @@ a:hover {
     width: 550px;
     font-size: 20px;
     text-align: justify;
+}
+
+#habilidades {
+    display: flex;
+    justify-content: center;
+}
+
+.habilidade-container {
+    height: 420px;
+    width: 880px;
+}
+
+.lista {
+    height: 282px;
+    width: 425px;
+    float: left;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-container {
+    height: 282px;
+    width: 425px;
+    float: right;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.blocos {
+    width: 120px;
+    height: 108px;
+    position: relative;
+    margin-top: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 33);
+}
+
+.habilidade-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto {
+    position: absolute;
 }
